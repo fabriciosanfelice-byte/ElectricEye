@@ -1,8 +1,8 @@
 # Política de Privacidade — Electric Eye (SpectrumMonitor)
 
 **Última atualização:** 15 de novembro de 2026  
-**Desenvolvedor responsável:** Fabrício Vieira Sanfelice  
-**Marca:** TradeVSan  
+**Desenvolvedor responsável:** Fabrício Vieira Sanfelice (Conta Individual — Comerciante)  
+**Nome de projeto / estúdio:** TradeVSan  
 **Contato:** suportetradevsan@gmail.com
 
 Esta Política de Privacidade explica como o aplicativo **Electric Eye (SpectrumMonitor)** trata permissões, sensores e dados no seu dispositivo Android.
@@ -38,8 +38,9 @@ Quando o dispositivo possui acesso à internet (`INTERNET` e `ACCESS_NETWORK_STA
 2. **Safecast (`api.safecast.org`):** Fornece medições públicas da rede cidadã de contadores Geiger próximos, utilizando as mesmas regras de localização padrão ou aproximada descritas acima.
 3. **NOAA SWPC (`services.swpc.noaa.gov`):** Fornece telemetria espacial pública (raios X solares, índice geomagnético Kp e vento solar), sem envio de localização ou identificação do usuário.
 4. **Google Gemini API (`generativelanguage.googleapis.com`):** Acionada **somente quando você solicita explicitamente** uma auditoria técnica ou envia uma pergunta no Consultor IA. Nessa solicitação, são enviados o resumo das leituras espectrais e incidentes recentes exibidos no aplicativo, bem como o texto da sua pergunta. Caso configure uma chave de API própria, ela é armazenada apenas localmente de forma criptografada via **Android Keystore**.
+5. **Assinaturas e Planos VIP (Google Play Billing):** Quando planos de assinatura (VIP) estiverem disponíveis no aplicativo, os pagamentos e renovações serão processados exclusivamente pelo sistema oficial do **Google Play**. O aplicativo não coleta, armazena nem tem acesso a números de cartão de crédito ou dados bancários, recebendo apenas a confirmação de status/licença da assinatura para liberar os recursos contratados.
 
-O tratamento de metadados de rede (como endereço IP) por esses provedores segue as políticas de privacidade de cada serviço (Google, Open-Meteo, Safecast e NOAA).
+O tratamento de metadados de rede (como endereço IP) e de pagamento por esses provedores segue as políticas de privacidade de cada serviço (Google / Google Play, Open-Meteo, Safecast e NOAA).
 
 ---
 
@@ -79,6 +80,6 @@ Esta Política de Privacidade pode ser atualizada conforme a evolução do aplic
 
 Para dúvidas, solicitações ou assuntos relacionados à privacidade:  
 **Responsável:** Fabrício Vieira Sanfelice  
-**Marca:** TradeVSan  
+**Nome de projeto / estúdio:** TradeVSan  
 **E-mail:** suportetradevsan@gmail.com  
 **Página oficial da política:** https://github.com/fabriciosanfelice-byte/ElectricEye
